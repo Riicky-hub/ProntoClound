@@ -1,0 +1,11 @@
+@import "style.css";
+footer {
+    background-color: #254159;
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}

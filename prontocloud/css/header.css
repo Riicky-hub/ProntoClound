@@ -1,0 +1,13 @@
+@import "style.css";
+header {
+    display: block;
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 15px 0;
+}
+header img {
+    padding-left: 20px;
+    height: 50px;
+    width: auto;
+}
