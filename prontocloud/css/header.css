@@ -5,6 +5,7 @@ header {
     width: 100%;
     background: #fff;
     padding: 15px 0;
+    border-bottom: 4px solid #254159;
 }
 header img {
     padding-left: 20px;

@@ -16,6 +16,5 @@ footer {
     transition: all 0.5s ease-in-out;
 }
 .footer_link:hover {
-
     border-bottom: 1.5px solid rgb(35, 238, 238);
 }
