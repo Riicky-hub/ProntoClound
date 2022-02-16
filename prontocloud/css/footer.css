@@ -4,8 +4,18 @@ footer {
     color: #fff;
     display: block;
     float: left;
-    padding: 20px 0;
+    padding: 15px 0;
     width: 100%;
     font-weight: 700;
     text-align: center;
+}
+.footer_link {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid rgb(22, 153, 153);
+    transition: all 0.5s ease-in-out;
+}
+.footer_link:hover {
+
+    border-bottom: 1.5px solid rgb(35, 238, 238);
 }
