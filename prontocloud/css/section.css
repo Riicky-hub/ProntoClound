@@ -8,7 +8,7 @@ section {
     font-size: 1.5rem;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
     border-left: 2px solid #254159;
     border-right: 2px solid #254159;
@@ -18,29 +18,29 @@ section nav {
     display: block;
     width: 100%;
     float: left;
-    width: 30%;
+    width: 28%;
+    padding-left: 2%;
+}
+nav a {
+    display: block;
+    width: 80%;
 }
 nav li {
-    width: 80%;
+    width: 100%;
     margin-bottom: 3px;
     padding: 10px 15px;
     background-color: #f5f5f5;
     transition: all 0.5s ease-in-out;
+    color: black;
 }
 nav li:hover {
     background-color: #dcdcdc;
-
-}
-nav li a {
-    text-decoration: none;
-    color: black;
-    transition: all 0.5s ease-in-out;
-}
-nav li a:hover {
     color: #4784ba;
 }
 section article {
     display: block;
     float: left;
-    width: 70%;
+    width: 68%;
+    padding-right: 2%;
+    padding-bottom: 5px;
 }
