@@ -12,3 +12,19 @@ header img {
     height: 50px;
     width: auto;
 }
+/* Estilos Mobile */
+@media (max-width: 425px) {
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Estilos Tablet */
+@media (max-width: 650px) {
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

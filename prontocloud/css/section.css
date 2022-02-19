@@ -15,8 +15,6 @@ section {
     background-color: #fff;
 }
 section nav {
-    display: block;
-    width: 100%;
     float: left;
     width: 28%;
     padding-left: 2%;
@@ -43,4 +41,26 @@ section article {
     width: 68%;
     padding-right: 2%;
     padding-bottom: 5px;
+}
+/* Estilos Mobile */
+@media (max-width: 425px) {
+    section article {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .main-container_list li {
+        display: none;
+    }
+}
+/* Estilos Tablet */
+@media (max-width: 700px) {
+    section nav {
+        display: none;
+    }
+    section article {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
 }
