@@ -3,6 +3,7 @@
 @import "section.css";
 @import "footer.css";
 @import "form.css";
+@import "popup.css";
 /* Estilizações Gerais */
 html {
     font-size: 62.5%;

@@ -1,7 +1,7 @@
 @import "style.css";
 #tenho-interesse {
     max-width: 100%;
-    padding: 10px 0 0 0;
+    padding: 20px 0 0 0;
     border: none;
     border-top: 2.5px solid #254159;
 }
@@ -11,6 +11,9 @@
 }
 .container-form_A {
     padding: 0 0 0 29.95px;
+}
+.container-form_A h1 {
+    padding-right: 10px;
 }
 .container-form_A a {
     display: block;
@@ -47,35 +50,9 @@
     font-weight: bold !important;
     color: #f5f5f5 !important;
 }
-/* Estilos Mobile */
-@media (max-width: 425px) {
-    #tenho-interesse .container-form {
-        display: block;
-    }
-    .container-form_A {
-        padding: 0;
-    }
-    .container-form_A h1 {
-        text-align: center;
-    }
-    .container-form_A ul li {
-        padding-right: 40px;
-    }
-    .container-form_A div {
-        display:flex;
-        justify-content: space-evenly;
-        padding-bottom: 10px;
-    }
-    .cog-heading {
-        text-align: center !important;
-    }
-    .cog-page__navigation {
-        display: flex !important;
-        justify-content: space-around !important;
-    }
-}
+
 /* Estilos Tablet */
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) and (min-width: 550px) {
     .container-form_A {
         padding-left: 5px;
         width: 40%;
@@ -91,6 +68,36 @@
         padding-right: 40px;
     }
 
+    .cog-heading {
+        text-align: center !important;
+    }
+    .cog-page__navigation {
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+}
+/* Estilos Mobile */
+@media only screen and (max-width: 550px) {
+    #tenho-interesse .container-form {
+        display: block;
+        width: 100%;
+    }
+    .container-form_A {
+        padding: 0;
+        width: 100%;
+    }
+    .container-form_A h1 {
+        text-align: center;
+        margin: 0 20px 15px 20px;
+    }
+    .container-form_A ul li {
+        padding-right: 40px;
+    }
+    .container-form_A div {
+        display:flex;
+        justify-content: space-evenly;
+        padding-bottom: 10px;
+    }
     .cog-heading {
         text-align: center !important;
     }

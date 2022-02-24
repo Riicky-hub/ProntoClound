@@ -28,12 +28,34 @@ nav li {
     margin-bottom: 3px;
     padding: 10px 15px;
     background-color: #f5f5f5;
-    transition: all 0.5s ease-in-out;
     color: black;
+    transition: all 0.5s ease-in-out;
 }
 nav li:hover {
     background-color: #dcdcdc;
     color: #4784ba;
+}
+#div_popup {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+#popup_form {
+    text-align: left;
+    font-size: 1.7rem;
+    border: 3px solid #254159;
+    background-color: #254159;
+    color: white;
+    padding: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#popup_form:hover {
+    background: white;
+    color: #254159;
 }
 section article {
     display: block;

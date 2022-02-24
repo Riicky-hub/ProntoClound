@@ -22,15 +22,12 @@
         <section>
             <nav>
                 <ul class="main-container_list">
-                    <a href="#" style="text-decoration: none;">
-                        <li>Home</li>
-                    </a>
-                    <a href="#" style="text-decoration: none;">
-                        <li>Sobre nós</li>
-                    </a>
-                    <a href="#" style="text-decoration: none;">
-                        <li>Tenho Interesse</li>
-                    </a>
+                    <a href="#" style="text-decoration: none;"><li>Home</li></a>
+                    <a href="#" style="text-decoration: none;"><li>Sobre Nós</li></a>
+                    <a href="#" style="text-decoration: none;"><li>Nossa Equipe</li></a>
+                    <div id="div_popup">
+                        <button id="popup_form" href="#" style="text-decorbuttontion: none;">Tenho Interesse</button>
+                    </div>
                 </ul>
             </nav>
             <article>
@@ -118,22 +115,23 @@
                 <div class="container-form">
                     <article class="container-form_A">
                         <h1>Para saber mais, nos siga nas redes sociais</h2>
-                        <div>
-                            <ul>
-                                <a href="https://www.instagram.com/riicky_ace/" style="text-decoration:none;"
-                                    target="_blank">
-                                    <li><img src="./prontocloud/images/icons8-instagram.svg">Instagram</li>
-                                </a>
-                                <a href="https://github.com/Riicky-hub" style="text-decoration:none;" target="_blank">
-                                    <li><img src="./prontocloud/images/icons8-github.svg">GitHub</li>
-                                </a>
-                                <a href="https://www.reddit.com/user/Richard_bruh" style="text-decoration:none;"
-                                    target="_blank">
-                                    <li><img src="./prontocloud/images/icons8-reddit.svg">Reddit</li>
-                                </a>
-                            </ul>
-                        </div>
-                        
+                            <div>
+                                <ul>
+                                    <a href="https://www.instagram.com/riicky_ace/" style="text-decoration:none;"
+                                        target="_blank">
+                                        <li><img src="./prontocloud/images/icons8-instagram.svg">Instagram</li>
+                                    </a>
+                                    <a href="https://github.com/Riicky-hub" style="text-decoration:none;"
+                                        target="_blank">
+                                        <li><img src="./prontocloud/images/icons8-github.svg">GitHub</li>
+                                    </a>
+                                    <a href="https://www.reddit.com/user/Richard_bruh" style="text-decoration:none;"
+                                        target="_blank">
+                                        <li><img src="./prontocloud/images/icons8-reddit.svg">Reddit</li>
+                                    </a>
+                                </ul>
+                            </div>
+
                     </article>
                     <article>
                         <h1>Ficou interessado?</h1>
@@ -152,7 +150,21 @@
                     class="footer_link">Ricardo</a></small>
         </p>
     </footer>
-
+    <!-- Formulario Pop-Up -->
+    <div id="bg_modal">
+        <div class="modal_content">
+            <div id="content-close"><img src="./prontocloud/images/icons8-close-35.png"></div>
+            <img class="content-img" src="./prontocloud/images/message.png">
+            <form action="" class="content_form">
+                <h1 class="form_title">Entre em contato!</h1>
+                <h3>Nome: </h3><input class="form_input" type="text" placeholder="Escreva seu nome aqui" required>
+                <h3>E-mail: </h3><input class="form_input" type="email" placeholder="Escreva seu email aqui" required>
+                <h3>Número: </h3><input class="form_input" type="number" placeholder="Coloque seu número aqui">
+                <button class="form_btn">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="./prontocloud/js/app.js"></script>
 </body>
 
 </html>
